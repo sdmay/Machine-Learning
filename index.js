@@ -46,8 +46,8 @@ function dressData() {
      * we need to parse the String value as a Float.
      */
     csvData.forEach((row) => {
-        X.push(f(row.Radio));
-        y.push(f(row.Sales));
+        X.push(f(row.radio));
+        y.push(f(row.sales));
     });
 }
 
